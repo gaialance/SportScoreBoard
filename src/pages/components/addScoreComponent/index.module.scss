@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: silver;
+    border-radius: 40px;
+}
+
+
+.navigationButton{
+    margin: 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigationButton:hover{
+    cursor: pointer;
+}
+
+.textMiddle{
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    transition: 1s ease-out;
+}
+
+.button{
+    background-color: white;
+    color: black !important;
+    border: 1px solid black !important;
+    border-radius: 40px;
+}
+
+.button:hover{
+    border: 1px solid black;
+}
+
+.dialogButton{
+    color: black !important;
+}
+
+.dialogButton:hover{
+    background-color: silver !important;
+    transition: 0.2s ease-in;
+}
