@@ -1,0 +1,671 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rending the home start rending the home page 1`] = `
+<div>
+  <div
+    class="container MuiBox-root css-1u4kfga"
+    data-testid="home"
+  >
+    <div
+      class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+    >
+      <div
+        class="container MuiBox-root css-0"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 navigationButton css-1o7apob-MuiGrid-root"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium button css-l0ycqr-MuiButtonBase-root-MuiButton-root"
+              data-testid="prevButton"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="NavigateBeforeIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 textMiddle css-vok43g-MuiGrid-root"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium button css-1rwt2y5-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                data-testid="dateFormat"
+              >
+                Today
+              </h5>
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium icon css-i4bv87-MuiSvgIcon-root"
+                data-testid="ArrowDropUpIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m7 14 5-5 5 5z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 navigationButton css-1o7apob-MuiGrid-root"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium button css-l0ycqr-MuiButtonBase-root-MuiButton-root"
+              data-testid="nextButton"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="NavigateNextIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiStack-root css-1okj3ks-MuiStack-root"
+      data-testid="scoreBoard"
+    >
+      <div
+        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <div
+          class="container MuiBox-root css-0"
+        >
+          <div
+            class="MuiStack-root css-163ljxj-MuiStack-root"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-5lbw0b-MuiTypography-root"
+              data-testid="title"
+            >
+              Premier League
+            </h4>
+            <div
+              class="MuiStack-root css-1e7mpa5-MuiStack-root"
+              data-testid="ScoreBoard-1"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container container css-11lq3yg-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-19otjfj-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="homeTeam"
+                      >
+                        BrentFord
+                      </h5>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1o7apob-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                      >
+                        vs
+                      </h5>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="awayTeam"
+                      >
+                        Leicester
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="homeTeamScore"
+                      >
+                        5
+                      </h5>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1o7apob-MuiGrid-root"
+                    />
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="awayTeamScore"
+                      >
+                        4
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container container css-11lq3yg-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-19otjfj-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="homeTeam"
+                      >
+                        Aston Villa
+                      </h5>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1o7apob-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                      >
+                        vs
+                      </h5>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="awayTeam"
+                      >
+                        Bournemouth
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="homeTeamScore"
+                      >
+                        5
+                      </h5>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1o7apob-MuiGrid-root"
+                    />
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="awayTeamScore"
+                      >
+                        4
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container container css-11lq3yg-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-19otjfj-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="homeTeam"
+                      >
+                        Nottom Forest
+                      </h5>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1o7apob-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                      >
+                        vs
+                      </h5>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="awayTeam"
+                      >
+                        Newcastle
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="homeTeamScore"
+                      >
+                        2
+                      </h5>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1o7apob-MuiGrid-root"
+                    />
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="awayTeamScore"
+                      >
+                        4
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 css-1ib8r6l-MuiGrid-root"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium button css-1trkvrt-MuiButtonBase-root-MuiButton-root"
+                      data-testid="buttonTest"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                      >
+                        Create New
+                      </p>
+                      <span
+                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <div
+          class="container MuiBox-root css-0"
+        >
+          <div
+            class="MuiStack-root css-163ljxj-MuiStack-root"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-5lbw0b-MuiTypography-root"
+              data-testid="title"
+            >
+              Champions League
+            </h4>
+            <div
+              class="MuiStack-root css-1e7mpa5-MuiStack-root"
+              data-testid="ScoreBoard-1"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container container css-11lq3yg-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-19otjfj-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="homeTeam"
+                      >
+                        BrentFord
+                      </h5>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1o7apob-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                      >
+                        vs
+                      </h5>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="awayTeam"
+                      >
+                        Leicester
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="homeTeamScore"
+                      >
+                        5
+                      </h5>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1o7apob-MuiGrid-root"
+                    />
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="awayTeamScore"
+                      >
+                        4
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container container css-11lq3yg-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-19otjfj-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="homeTeam"
+                      >
+                        Aston Villa
+                      </h5>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1o7apob-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                      >
+                        vs
+                      </h5>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="awayTeam"
+                      >
+                        Bournemouth
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="homeTeamScore"
+                      >
+                        5
+                      </h5>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1o7apob-MuiGrid-root"
+                    />
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="awayTeamScore"
+                      >
+                        4
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container container css-11lq3yg-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-19otjfj-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="homeTeam"
+                      >
+                        Nottom Forest
+                      </h5>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1o7apob-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                      >
+                        vs
+                      </h5>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="awayTeam"
+                      >
+                        Newcastle
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="homeTeamScore"
+                      >
+                        2
+                      </h5>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1o7apob-MuiGrid-root"
+                    />
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                        data-testid="awayTeamScore"
+                      >
+                        4
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 css-1ib8r6l-MuiGrid-root"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium button css-1trkvrt-MuiButtonBase-root-MuiButton-root"
+                      data-testid="buttonTest"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                      >
+                        Create New
+                      </p>
+                      <span
+                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <div
+          class="container MuiBox-root css-0"
+        >
+          <div
+            class="MuiStack-root css-163ljxj-MuiStack-root"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-5lbw0b-MuiTypography-root"
+              data-testid="title"
+            >
+              Europa League
+            </h4>
+            <div
+              class="MuiStack-root css-1e7mpa5-MuiStack-root"
+              data-testid="ScoreBoard-1"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+              >
+                There is no game at the moment
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1ps6pg7-MuiPaper-root"
+    />
+  </div>
+</div>
+`;

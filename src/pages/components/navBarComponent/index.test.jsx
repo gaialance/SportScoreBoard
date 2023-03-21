@@ -9,15 +9,21 @@ import { DateTime } from 'luxon'
 afterEach(cleanup);
 
 describe("rendering the NavBarComponent",()=>{
-     it('Start the landing page will get the today date correct',() => {
-        render( <NavBarComponent />)
+      it('making Snapsnot the landing page to compare',() => {
+         const { container } = render(<NavBarComponent />)
+
+         expect(container).toMatchSnapshot()
+      });
+
+     it('testing the dateformat in the screen correct or not at the start',() => {
+         render( <NavBarComponent/> )
 
         expect(  screen.getByTestId("dateFormat")  ).toHaveTextContent("Today")
      });
 
      it('getting the date filter that is before that day when click on the previous button it will minus one day', async () => {
-        render( <NavBarComponent />)
-        
+         render( <NavBarComponent/> )
+
         expect( screen.getByTestId("dateFormat")  ).toHaveTextContent("Today")
     
         await userEvent.click(screen.getByTestId('prevButton'))
@@ -27,8 +33,8 @@ describe("rendering the NavBarComponent",()=>{
      });
 
      it('getting the date filter that is before that day when click on the previous button it will add one day', async () => {
-        render( <NavBarComponent />)
-        
+         render( <NavBarComponent/> )  
+
         expect( screen.getByTestId("dateFormat")  ).toHaveTextContent("Today")
     
         await userEvent.click(screen.getByTestId('nextButton'))

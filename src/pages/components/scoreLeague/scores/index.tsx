@@ -9,7 +9,7 @@ const Score = (props:ScoreBoardType) => {
       <Grid item xs={12} sx={{borderBottom:"solid 2px black"}}>
         <Grid container>
           <Grid item xs={5}>
-            <Typography variant="h5">
+            <Typography variant="h5" data-testid="homeTeam">
                 {props.homeTeam}
             </Typography>
           </Grid>
@@ -19,7 +19,7 @@ const Score = (props:ScoreBoardType) => {
             </Typography>
           </Grid>
           <Grid item xs={5}>
-            <Typography variant="h5">
+            <Typography variant="h5" data-testid="awayTeam">
                 {props.awayTeam}
             </Typography>
           </Grid>
@@ -28,14 +28,14 @@ const Score = (props:ScoreBoardType) => {
       <Grid item xs={12}>
         <Grid container>
           <Grid item xs={5}>
-              <Typography variant="h5">
+              <Typography variant="h5" data-testid="homeTeamScore">
                   {props.homeTeamScore}
               </Typography>
             </Grid>
           <Grid item xs={2}>
           </Grid>
           <Grid item xs={5}>
-            <Typography variant="h5">
+            <Typography variant="h5" data-testid="awayTeamScore">
                 {props.awayTeamScore}
             </Typography>
           </Grid>

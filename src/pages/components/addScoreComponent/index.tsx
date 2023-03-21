@@ -58,7 +58,7 @@ const AddScoreComponent = (props:AddScoreComponentProps) => {
             <CardContent>
                 <Grid container>
                     <Grid item xs={3} display="flex" alignItems="center" justifyContent="center">
-                        <Button className={styles.button} sx={{marginLeft:'20px'}} onClick={()=>handleOpenDialog()}>
+                        <Button className={styles.button} sx={{marginLeft:'20px'}} data-testid="buttonTest"  onClick={()=>handleOpenDialog()}>
                         <Typography>
                             Create New
                         </Typography>
@@ -141,8 +141,8 @@ const AddScoreComponent = (props:AddScoreComponentProps) => {
                     </Grid>
                     </Grid>
                     <DialogActions>
-                    <Button className={styles.dialogButton} onClick={handleCloseDialog} >Cancel</Button>
-                    <Button className={styles.dialogButton} onClick={handleSubmit(onSubmit)} >Submit</Button>
+                    <Button className={styles.dialogButton} data-testid="cancelBtn" onClick={handleCloseDialog} >Cancel</Button>
+                    <Button className={styles.dialogButton} data-testid="submitBtn" onClick={handleSubmit(onSubmit)} >Submit</Button>
                     </DialogActions>
                 </form>
                 </Box>
